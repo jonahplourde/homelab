@@ -17,7 +17,7 @@ Versioning generally follows [Semantic Versioning](https://semver.org).
 
 
 ## [Unreleased]
-## Added
+### Added
 - README.md
 - LICENSE.md, using CC BY-NC-ND 4.0 as license
 - CHANGELOG.md
