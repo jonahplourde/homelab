@@ -1,6 +1,6 @@
 # Changelog
-All notable changes to this lab are documented here.
-Format follows [Keep a Changelog](https://keepachangelog.com).
+All notable changes to this lab are documented here.\
+Format follows [Keep a Changelog](https://keepachangelog.com).\
 Versioning generally follows [Semantic Versioning](https://semver.org).
 
 
