@@ -10,6 +10,7 @@ Versioning generally follows [Semantic Versioning](https://semver.org).
 - `Fixed`: corrections to errors — broken links, wrong values, inaccurate documentation.
 - `Removed`: deletion of files or content that previously existed.
 - One entry per distinct change.
+- Entries name what was added, changed, fixed, or removed, not how or why.
 - Unreleased accumulates work in progress until changes are significant enough to tag a new version.
 - Major versions (X.y.z) mark the current phase of the lab.
 - Minor versions (x.Y.z) mark significant or noteworthy changes within a phase.
@@ -18,6 +19,6 @@ Versioning generally follows [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
 ### Added
-- README.md for root folder.
-- LICENSE.md, using CC BY-NC-ND 4.0 as license.
-- CHANGELOG.md and its basic formatting.
+- README.md
+- LICENSE.md, using CC BY-NC-ND 4.0 as license
+- CHANGELOG.md
