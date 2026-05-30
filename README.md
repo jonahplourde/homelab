@@ -6,11 +6,30 @@
 
 
 ## I. OVERVIEW
-This lab simulates a simplified enterprise environment built and operated by a single engineer. It covers topics from simple troubleshooting and helpdesk functions to network infrastructure and directory services through security operations to cloud engineering to governance.
+The lab host is running EndeavourOS with KVM/QEMU and virt-manager configured. Six VMs are staged for deployment: a pfSense firewall, Windows Server 2025 domain controller, Windows 11 Pro endpoint, Ubuntu Server running Splunk, a Kali attack platform, and a Metasploitable2 target.
 
-The environment is built on KVM/QEMU on EndeavourOS, with a VM stack that mirrors a small enterprise network: a pfSense firewall handling segmentation and routing, Windows Server 2025 running Active Directory, a Splunk SIEM ingesting logs across the environment, and a dedicated attack platform paired with a vulnerable target for simulated adversarial activity.
+The lab will progress through four structured phases. Each phase will inherit from the one prior.
 
-Each phase of the lab builds on the last. Infrastructure decisions made in Phase 01 are inherited by the security operations work in Phase 02. Detection rules written in Phase 02 are tested against real simulated attacks. Governance documentation in Phase 04 reflects the actual environment, not a hypothetical one. The result is a body of work that demonstrates how these disciplines connect in practice rather than in isolation.
+1. Phase 01 will establish core infrastructure
+    - Networking
+    - Directory services
+    - General endpoint management
+    
+2. Phase 02 will build security operations on top of that foundation:
+    - SIEM deployment
+    - Detection engineering
+    - Incident response
+    - Threat intelligence
+    
+3. Phase 03 will cover cloud and infrastructure engineering:
+    - IaC
+    - Containerization
+    - DevSecOps
+    
+4. Phase 04 will address security governance:
+    - Policy
+    - Risk management
+    - Compliance
 
 
 ## II. STATUS
@@ -20,7 +39,7 @@ Each phase of the lab builds on the last. Infrastructure decisions made in Phase
 ## III. QUICK NAVIGATION
 | Phase | Domain | Description |
 |---|---|---|
-| 00 -- Lab Environment | Hardware, network design, VM inventory |
+| 00 | Lab environment | Hardware, network design, VM inventory |
 
 
 ## IV. ENVIRONMENT
@@ -42,4 +61,4 @@ Each phase of the lab builds on the last. Infrastructure decisions made in Phase
 | win11 | Windows 11 Pro | Endpoint |
 | ubuntu | Ubuntu Server | Splunk SIEM |
 | kali | Kali Linux | Attack platform |
-| meta2 | Metasploitable | Vulnerable target |
+| meta2 | Metasploitable2 | Vulnerable target |
