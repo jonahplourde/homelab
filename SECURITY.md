@@ -1,11 +1,8 @@
-# Security Policy
-
-
-## Purpose
+# SECURITY POLICY
 This repository is public. This policy defines what information is permitted in this repository, the standards applied before any commit, and the process for handling exposures.
 
 
-## Sensitive Information
+## I. SENSITIVE INFORMATION
 The following are never committed to this repository under any circumstances:
 
 - Passwords, passphrases, or any authentication credentials
@@ -16,7 +13,7 @@ The following are never committed to this repository under any circumstances:
 All other IP addresses in this lab are private, non-routable RFC 1918 space and may appear freely in documentation, diagrams, and screenshots.
 
 
-## Pre-Commit Reviewing
+## II. PRE-COMMIT REVIEWING
 Every commit is manually reviewed before being pushed. This review confirms:
 
 - The affected files are read in full
@@ -25,8 +22,5 @@ Every commit is manually reviewed before being pushed. This review confirms:
 - Screenshots contain no sensitive values
 
 
-## Reporting Exposures
-If a sensitive value is found in this repository, open a GitHub Issue labeled
-`security`. Identify the file and line number. Do not include the sensitive
-value in the issue body. The issue will be addressed as a priority above all
-other lab work.
+## III. REPORTING EXPOSURES
+If a sensitive value is found in this repository, open a GitHub Issue labeled `security`. Identify the file and line number. Do not include the sensitive value in the issue body. The issue will be addressed as a priority above all other lab work.
