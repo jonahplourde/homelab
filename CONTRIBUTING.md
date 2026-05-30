@@ -16,11 +16,10 @@ All work is done on `dev` and merged to `main` when complete. Direct commits to 
 ```
 
 ## III. TYPES
-- `feat`: new project, VM, lab implementations, etc.
-- `fix`: correction to existing content or lab bug
-- `docs`: pure documentation addition with no functional lab change
-- `refactor`: restructuring without adding or removing content
-- `chore`: maintenance such as link fixes or formatting corrections
+- `feat`: new folder or file (unpopulated), new VM, lab implementations, etc.
+- `fix`: correction to existing content (when errors exist) or lab bug
+- `docs`: documentation addition (populated) or update with no functional lab change
+- `refactor`: restructuring without adding, removing, or fixing content
 
 
 ## IV. SCOPE
