@@ -5,9 +5,9 @@ Versioning generally follows [Semantic Versioning](https://semver.org).
 
 
 ## Rules
-- `Added`: new files, projects, scripts, configs, or lab infrastructure that did not exist before.
-- `Changed`: modifications to existing content — lab work, documentation, or repo structure.
-- `Fixed`: corrections to errors — broken links, wrong values, inaccurate documentation.
+- `Added`: new files, software, or other content.
+- `Changed`: modifications to existing content.
+- `Fixed`: corrections of errors in documentation or VMs.
 - `Removed`: deletion of files or content that previously existed.
 - One entry per distinct change.
 - Entries name what was added, changed, fixed, or removed, not how or why.
