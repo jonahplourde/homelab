@@ -1,21 +1,21 @@
-# Contributing
+# CONTRIBUTING
 This is a personal homelab repository. While external contributions are not sought after, feedback and issue reports are welcome.
 
 *Format follows [Conventional Commits](conventionalcommits.org).*
 
 
-## Branches
+## I. BRANCHES
 All work is done on `dev` and merged to `main` when complete. Direct commits to `main` are never made. `main` represents finished work only.
 
 
-## Commit Format
+## II. COMMIT FORMAT
 ```
     <type>(<scope>): <subject>
 
     [optional body]
 ```
 
-## Types
+## III. TYPES
 - `feat`: new project, VM, lab implementations, etc.
 - `fix`: correction to existing content or lab bug
 - `docs`: pure documentation addition with no functional lab change
@@ -23,7 +23,7 @@ All work is done on `dev` and merged to `main` when complete. Direct commits to 
 - `chore`: maintenance such as link fixes or formatting corrections
 
 
-## Scope
+## IV. SCOPE
 Scope identifies the location of the repository where the change occurred. For example...
 
 - `feat(phase-01/directory-services): add bulk user import script`
@@ -31,12 +31,13 @@ Scope identifies the location of the repository where the change occurred. For e
 - `chore(root): fix three broken internal links in README`
 
 
-## Subject and Body
+## V. SUBJECT & BODY
 - Subject line is lowercase with no period at the end
 - Subject line is under 80 characters
 - Body explains why, not what
 - Never use vague subjects
+- Do not specify file extension for Markdown files
 
 
-## Feedback and Issues
+## VI. FEEDBACK & ISSUES
 If you have feedback on structure, documentation quality, or notice an error/inconsistency, please open a GitHub Issue. Issues are triaged on a best-effort basis.
