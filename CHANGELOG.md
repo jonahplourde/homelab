@@ -17,3 +17,7 @@ Versioning generally follows [Semantic Versioning](https://semver.org).
 
 
 ## [Unreleased]
+### Added
+- README.md for root folder.
+- LICENSE.md, using CC BY-NC-ND 4.0 as license.
+- CHANGELOG.md and its basic formatting.
